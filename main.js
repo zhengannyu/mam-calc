@@ -5,6 +5,6 @@ btn.addEventListener('click', function () {
   var w = parseInt(document.getElementById('width').value);
   var h = parseInt(document.getElementById('height').value);
   var total = (Math.ceil(w / 80)) * (h + 30) * 5;
-  result1.innerHTML = 'NT$ ' + total;
-  result2.innerHTML = 'NT$ ' + total * 0.9;
+  result1.innerHTML = 'NT$ ' + total * 1.1;
+  result2.innerHTML = 'NT$ ' + total * 1.1 * 0.9;
 });
